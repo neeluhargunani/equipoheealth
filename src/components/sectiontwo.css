@@ -1,0 +1,38 @@
+.sec-two h5{
+    font-size: 1.1em!important;
+    font-weight: 700;
+    font-family: 'Verdana', 'sans-serif';
+    color: #52585e;
+    margin: 16px 0 0 20px;
+}
+.sec-two p {
+    font-size: 1em!important;
+    font-family: 'Verdana', 'sans-serif';
+    font-weight: 500;
+    color: #00000082;
+    margin:5px 0 0 20px;
+
+}
+.sec-two .list-group-item{
+
+    background-color: #f8f9fa  !important;
+    padding: 0px;
+}
+
+.css-185mjzr-MuiPaper-root{
+    box-shadow: 0px 0px 0px 0px transparent ,
+     0px 0px 0px 0px transparent, 
+     0px 0px 0px 0px transparent!important;
+}
+.cbdy-hgt{
+    min-height: 49vh!important;
+    background-color: #f8f9fa!important;
+}
+/* media query */
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .cbdy-hgt{
+        min-height: 71vh!important;
+        background-color: #f8f9fa!important;
+    }
+}
