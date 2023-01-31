@@ -1,4 +1,5 @@
 import * as React from 'react';
+
 import { styled, useTheme ,alpha} from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import MuiDrawer from '@mui/material/Drawer';
@@ -243,7 +244,7 @@ export default function SideNav() {
                     minWidth: 0,
                     mr: open ? 3 : 'auto',
                     justifyContent: 'center',
-                    color:'white'
+                 
                   }}
                 >
                   {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
@@ -269,7 +270,7 @@ export default function SideNav() {
                     minWidth: 0,
                     mr: open ? 3 : 'auto',
                     justifyContent: 'center',
-                     color:'white'
+                   
                   }}
                 >
                   {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
